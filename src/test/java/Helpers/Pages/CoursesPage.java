@@ -21,4 +21,5 @@ public class CoursesPage {
     public String courseCategoryName(){
         return getCourseCategoryTitle().getText();
     }
+    
 }
