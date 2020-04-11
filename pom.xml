@@ -112,7 +112,7 @@
                     </properties>
                     <includes>
                         <include>OpenBlogPage.java</include>
-                        <include>OpenCoursesPageFilteredByTesting.java</include>
+<!--                        <include>OpenCoursesPageFilteredByTesting.java</include>-->
                         <include>OpenFacebookPage.java</include>
                         <include>OpenRecruiterPage.java</include>
                         <include>OpenTermsOfUsePage.java</include>
