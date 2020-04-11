@@ -96,9 +96,6 @@
                     <argLine>
                         -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
                     </argLine>
-                    <argLine>
-                        -Dfile.encoding=UTF-8
-                    </argLine>
 
                     <systemProperties>
                         <property>
