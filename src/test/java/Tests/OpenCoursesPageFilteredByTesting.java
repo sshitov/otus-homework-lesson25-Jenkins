@@ -41,7 +41,8 @@ public class OpenCoursesPageFilteredByTesting extends BaseTest {
     @Description("Проверяется наименование открытого раздела курсов")
     @DisplayName("Переход к курсам в категории 'тестирование'")
     @Severity(SeverityLevel.BLOCKER)
-    public void openCoursesPageFilteredByTesting() {
+    public void openCoursesPageFilteredByTesting() throws InterruptedException {
+        Thread.sleep(2000);
         mainPage.navigateToCoursesPageFilteredByTesting();
         Assert.assertEquals("Тестирование", coursesPage.courseCategoryName());
     }
