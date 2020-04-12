@@ -32,7 +32,6 @@ public class OpenBlogPage extends BaseTest{
     public void tearDown() {
         ChromeWebDriver.quit();
     }
-
     
     @Test
     @Severity(SeverityLevel.MINOR)
