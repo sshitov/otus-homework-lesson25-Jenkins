@@ -33,7 +33,6 @@ public class OpenBlogPage extends BaseTest{
         ChromeWebDriver.quit();
     }
 
-    
     @Test
     @Severity(SeverityLevel.MINOR)
     @Step("Переход на страницу блога и проверка url")
